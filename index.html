@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Video Header</title>
+    <link rel="stylesheet" href="./src/css/styles.css"/>
 </head>
 <body>
 
+<div class="preloader">
+    <img src="" alt="preloader" class="preloader__item"/>
+</div>
+
+<header>
+    <video controls muted autoplay loop class="video-container">
+        <source src="./src/assets/video/video.mp4" type="video/mp4"/>
+    </video>
+    <h1>Just a heading!</h1>
+</header>
+
+<script src="app.js"></script>
 </body>
 </html>
